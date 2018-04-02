@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/Tourism.css"/>
+		
+	</head>
+	<body>
+		<div id="main">
+			<header>
+				<div id="title">
+					<img src="images/Tourism/旅游主页_03.jpg"/>
+				</div>
+			</header>
+			<div id="content">
+				<div id="content_img">
+					<img src="images/Tourism/旅游主页_07.jpg"/>
+				</div>
+				<div id="classify">
+					<ul>
+						<li>
+							<img src="images/Tourism/旅游主页_11.jpg"/>
+							<p>跟团游</p>
+						</li>
+						<li><img src="images/Tourism/旅游主页_14.jpg"/>
+						<p>目的地参团</p>
+						</li>
+						<li><img src="images/Tourism/旅游主页_17.jpg"/>
+						<p>自由行</p>
+						</li>
+						<li><img src="images/Tourism/旅游主页_21.jpg"/>
+						<p>机+酒</p>
+						</li>
+						<li><img src="images/Tourism/旅游主页_23.jpg"/>
+						<p>周边游</p></li>
+					</ul>
+					<ul class="style_1">
+						<li>
+							<img src="images/Tourism/旅游主页_34.jpg"/>
+							<p>当地向导</p>
+						</li>
+						<li><img src="images/Tourism/旅游主页_37.jpg"/>
+						<p>主题说</p>
+						</li>
+						<li><img src="images/Tourism/旅游主页_40.jpg"/>
+						<p>亲自 游学</p>
+						</li>
+						<li><img src="images/Tourism/旅游主页_43.jpg"/>
+						<p>高端游</p>
+						</li>
+						<li><img src="images/Tourism/旅游主页_46.jpg"/>
+						<p>一日游</p></li>
+					</ul>
+				</div>
+				<div id="border_1">
+					
+				</div>
+			</div>
+			<footer>
+				
+			</footer>
+		</div>
+		<script type="text/javascript">
+			(function (doc, win) {
+         	var docEl = doc.documentElement,
+              resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+              recalc = function () {
+                  var clientWidth = docEl.clientWidth;
+                 if (!clientWidth) return;
+                  if(clientWidth>=750){
+                      docEl.style.fontSize = '100px';
+                  }else{
+                     docEl.style.fontSize = 100 * (clientWidth /750) + 'px';
+                 }
+             };
+ 
+         if (!doc.addEventListener) return;
+         win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+			})(document, window);
+
+		</script>
+	</body>
+</html>
